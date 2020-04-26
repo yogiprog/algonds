@@ -43,8 +43,6 @@ public class SLinkedList {
 		
 	}
 	
-	
-	
 	void display() {
 		SNode itr = head;
 		if (itr == null)
@@ -53,7 +51,6 @@ public class SLinkedList {
 			System.out.println(itr.getData());
 			itr = itr.getNext();
 		}
-
 	}
 
 	public static void main(String[] args) {
