@@ -19,30 +19,27 @@ public class SLinkedList {
 		SNode itr = this.head;
 		SNode node = new SNode(data);
 		if (itr != null) {
-			while(itr.getNext()!=null)
-				itr=itr.getNext();
-			itr.setNext(node);	
-		}
-		else 
-			this.head= node;
+			while (itr.getNext() != null)
+				itr = itr.getNext();
+			itr.setNext(node);
+		} else
+			this.head = node;
 	}
 
 	void addLast(int data) {
-	
+
 		SNode itr = this.head;
 		SNode node = new SNode(data);
-		while(itr.getNext()!=null)
-			itr=itr.getNext();
-		itr.setNext(node);	
-		
+		while (itr.getNext() != null)
+			itr = itr.getNext();
+		itr.setNext(node);
+
 	}
-	
-	
+
 	void addAtPostion(int data, int position) {
-		
-		
+
 	}
-	
+
 	void display() {
 		SNode itr = head;
 		if (itr == null)
