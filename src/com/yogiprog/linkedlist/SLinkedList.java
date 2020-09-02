@@ -50,11 +50,36 @@ public class SLinkedList {
 		}
 	}
 
+	public void removeNthFromEnd(int n){
+
+		SNode itr=  this.head;
+		SNode middlePtr = this.head;
+		SNode temp = this.head;
+
+			for(int i=1;i<n;i++) {
+				itr = itr.getNext();
+			}
+
+		while(itr!=null){
+
+			    itr=itr.getNext();
+				temp=middlePtr;
+				middlePtr = middlePtr.getNext();
+			}
+
+		temp.setNext(middlePtr.getNext());
+
+	}
+
+
 	public static void main(String[] args) {
 		SLinkedList SLL = new SLinkedList();
 		SLL.add(1);
 		SLL.add(2);
-		SLL.addLast(3);
+		SLL.add(3);
+		SLL.add(4);
+		SLL.display();
+		SLL.removeNthFromEnd(1);
 		SLL.display();
 	}
 }

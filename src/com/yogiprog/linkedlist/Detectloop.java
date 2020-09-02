@@ -15,8 +15,7 @@ public class Detectloop {
 			for(int i=0;i<=postion;i++)
 				Sptr = Sptr.getNext();
 			for(int i=0;i<=postion+1 && Fptr.getNext() !=null;i++)
-				Fptr = Fptr.getNext();	
-
+				Fptr = Fptr.getNext();
 				postion++;
 		}
 		if(Fptr.getNext()==null)
