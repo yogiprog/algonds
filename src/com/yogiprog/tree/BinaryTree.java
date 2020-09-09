@@ -1,6 +1,5 @@
 package com.yogiprog.tree;
 
-
 import java.util.Stack;
 
 public class BinaryTree {
@@ -35,11 +34,20 @@ public class BinaryTree {
         return node;
     }
 
+    public static BTNode create12345tree(){
+
+        BTNode node = new BTNode(1);
+        node.right=new BTNode(3);
+        node.left= new BTNode(2);
+        node.left.left= new BTNode(4);
+        node.left.right = new BTNode(5);
+        return node;
+    }
+
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
         BinaryTree bt = new BinaryTree();
         BTNode root = bt.createBT(arr);
-
     }
 }
 
