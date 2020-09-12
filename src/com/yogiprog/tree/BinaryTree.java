@@ -44,6 +44,32 @@ public class BinaryTree {
         return node;
     }
 
+
+    public static BTNode create42513tree(){
+
+        BTNode node = new BTNode(4);
+        node.right=new BTNode(5);
+        node.left= new BTNode(2);
+        node.left.left= new BTNode(1);
+        node.left.right = new BTNode(3);
+        return node;
+    }
+
+
+    public static BTNode create1223223tree(){
+
+        BTNode node = new BTNode(1);
+        node.right=new BTNode(2);
+        node.left= new BTNode(2);
+
+        node.left.left= new BTNode(3);
+        node.left.right = new BTNode(2);
+
+        node.right.right = new BTNode(3);
+        node.right.left = new BTNode(2);
+
+        return node;
+    }
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
         BinaryTree bt = new BinaryTree();
