@@ -1,4 +1,4 @@
-package com.yogiprog.linkedlist;
+package com.yogiprog.datastructure.linkedlist;
 
 public class ReverseLL {
 	

@@ -1,19 +1,18 @@
-package com.yogiprog.tree;
+package com.yogiprog.datastructure.tree;
 
-public class PostOrderRecursion {
+public class InorderRecursion {
 
-    public void postOrder(BTNode node) {
+
+    public void Inorder(BTNode node) {
 
         if (node == null)
             return;
 
-        postOrder(node.left);
+        Inorder(node.left);
 
-        postOrder(node.right);
+        Inorder(node.right);
 
         System.out.println(node.data);
-
-
     }
 
 
@@ -22,9 +21,8 @@ public class PostOrderRecursion {
         int[] arr = {1, 2, 3, 4, 5};
         BinaryTree bt = new BinaryTree();
         BTNode root = bt.createBT(arr);
-        PostOrderRecursion preRe = new PostOrderRecursion();
-        preRe.postOrder(root);
+        InorderRecursion ir = new InorderRecursion();
+        ir.Inorder(root);
 
     }
-
 }

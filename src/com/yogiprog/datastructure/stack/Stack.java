@@ -1,4 +1,4 @@
-package com.yogiprog.stack;
+package com.yogiprog.datastructure.stack;
 
 public class Stack {
 

@@ -1,4 +1,4 @@
-package com.yogiprog.tree;
+package com.yogiprog.datastructure.tree;
 
 import java.util.Stack;
 
