@@ -1,2 +1,2 @@
 # algonds
-Repository for learning basics datastructure and algorithms
+ Repository for Algorithms and Data structures
