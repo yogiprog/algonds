@@ -1,6 +1,8 @@
-/*
+
 package com.yogiprog.tree;
 
+import com.yogiprog.datastructure.tree.BTNode;
+import com.yogiprog.datastructure.tree.BinaryTree;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -8,42 +10,41 @@ import java.util.Queue;
 
 public class Ordertraversal {
 
+  public static List<List<Integer>> levelOrder(BTNode node) {
 
-     public static List<List<Integer>> levelOrder(BTNode node){
+    List<List<Integer>> outer = new ArrayList<List<Integer>>();
 
-        List<List<Integer>> outer = new ArrayList<List<Integer>>();
+    Queue<BTNode> q = new LinkedList<>();
 
-         Queue<BTNode> q = new LinkedList<>();
+    q.add(node);
 
-         q.add(node);
+    while (!q.isEmpty()) {
 
-         while (!q.isEmpty()){
+      List<Integer> list = new ArrayList<>();
 
-             List<Integer> list = new ArrayList<>();
+      int size = q.size();
 
-             int size = q.size();
-
-             for(int i=0;i<=size;i++){
-                 BTNode node = q.remove();
-                 list.add(node.data);
-                 if(node.left!=null)
-                     q.add(node.left);
-                 if(node.right!=null)
-                     q.add(node.right);
-             }
-             outer.add(list);
-         }
-        return outer;
+      for (int i = 0; i < size; i++) {
+        BTNode n = q.remove();
+        list.add(n.data);
+        if (n.left != null) {
+          q.add(n.left);
+        }
+        if (n.right != null) {
+          q.add(n.right);
+        }
+      }
+      outer.add(list);
     }
+    return outer;
+  }
 
 
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
-        BTNode node = BinaryTree.create12345tree();
+    BTNode node = BinaryTree.create12345tree();
 
-        List<List<Integer>> result = Ordertraversal.levelOrder(node);
+    List<List<Integer>> result = Ordertraversal.levelOrder(node);
 
-
-    }
+  }
 }
-*/

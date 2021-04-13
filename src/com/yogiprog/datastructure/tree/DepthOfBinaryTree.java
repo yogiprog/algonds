@@ -2,6 +2,7 @@ package com.yogiprog.datastructure.tree;
 
 import java.util.LinkedList;
 import java.util.Queue;
+import java.util.Stack;
 
 public class DepthOfBinaryTree {
 
@@ -45,9 +46,45 @@ public class DepthOfBinaryTree {
             }
         }
     }
+
+
+
+    public static int maxDepth(BTNode root) {
+
+        if(root ==null)
+            return 0;
+
+        int ht =0;
+
+        Queue<BTNode> q = new LinkedList<>();
+        Stack<BTNode> s = new Stack<BTNode>();
+
+        q.add(root);
+
+        while(!q.isEmpty()){
+
+            while(!q.isEmpty()){
+                BTNode itr = q.remove();
+                if(itr.left!=null)
+                    s.add(itr.left);
+                if(itr.right!=null)
+                    s.add(itr.right);
+            }
+
+            while(!s.isEmpty()){
+                BTNode temp = s.pop();
+                q.add(temp);
+            }
+            ht++;
+        }
+
+        System.out.println(ht);
+       return ht;
+    }
     public static void main(String[] args) {
         BTNode node = BinaryTree.create12345tree();
         System.out.println(DepthOfBinaryTree.maxDepthRecursively(node));
         System.out.println(DepthOfBinaryTree.maxDepthIteratively(node));
+        System.out.println(DepthOfBinaryTree.maxDepth(node));
     }
 }

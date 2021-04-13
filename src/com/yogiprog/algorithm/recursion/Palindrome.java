@@ -7,10 +7,8 @@ public class Palindrome {
     if (str.length() == 1) {
       return true;
     }
-
     char[] strChar = str.toCharArray();
     int i = 0;
-
     System.out.println(str.length());
     System.out.println(str.length()/2);
     while (i <= ((strChar.length / 2))) {
@@ -21,8 +19,6 @@ public class Palindrome {
     }
       return true;
   }
-
-
   public static boolean isPalindrom(String str){
 
     if(str.length()<=1)
@@ -41,13 +37,8 @@ public class Palindrome {
 
   }
 
-
-
   public static void main(String[] args) {
-
-
-    System.out.println(Palindrome.isPalindrome("abcdba"));
-
+    System.out.println(Palindrome.isPalindrome("abdba"));
     System.out.println(Palindrome.isPalindrom("a"));
   }
 }

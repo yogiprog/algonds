@@ -1,12 +1,14 @@
 package com.yogiprog.algorithm.recursion;
 
+
+
 public class ReverseString {
 
-  public static void reverse(String str) {
+/*  public static void reverse(String str) {
     print(str, 0);
-  }
+  }*/
 
-  public static void print(String str, int i) {
+/*  public static void print(String str, int i) {
     if (i == str.length()) {
       System.out.print(str.charAt(i - 1));
     } else {
@@ -19,11 +21,31 @@ public class ReverseString {
 
     }
 
+  }*/
+
+  public static String printRecu(String str){
+    System.out.println(str);
+
+    if(str.length()==1) {
+
+      return str;
+    }
+    else {
+
+      StringBuffer sb = new StringBuffer(str.substring(str.length()-1,str.length()));
+      System.out.println("***************"+sb.toString());
+      String s = sb.append(printRecu(str.substring(0, str.length() - 1))).toString();
+      System.out.println(">>>"+s);
+      return s;
+    }
+
   }
+
 
   public static void main(String[] args) {
     String str = "ABCD";
-    ReverseString.reverse(str);
+
+    System.out.println(ReverseString.printRecu(str));
   }
 
 }

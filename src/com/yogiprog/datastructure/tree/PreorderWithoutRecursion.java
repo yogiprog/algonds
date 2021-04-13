@@ -2,7 +2,7 @@ package com.yogiprog.datastructure.tree;
 
 import java.util.Stack;
 
-public class PreorderWithoutRecurssion {
+public class PreorderWithoutRecursion {
 
     public static void preorder(BTNode node){
         if(node ==null)
@@ -24,8 +24,10 @@ public class PreorderWithoutRecurssion {
         int[] arr = {1, 2, 3, 4, 5};
         BinaryTree bt = new BinaryTree();
         BTNode root = bt.createBT(arr);
-        PreorderWithoutRecurssion preRe = new PreorderWithoutRecurssion();
+        PreorderWithoutRecursion preRe = new PreorderWithoutRecursion();
         preRe.preorder(root);
+
+
     }
 
 }

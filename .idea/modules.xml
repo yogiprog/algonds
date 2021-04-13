@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algonds.iml" filepath="$PROJECT_DIR$/algonds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-boot-tutorials/spring-boot-tutorials/spring-boot-tutorials.iml" filepath="$PROJECT_DIR$/../spring-boot-tutorials/spring-boot-tutorials/spring-boot-tutorials.iml" />
     </modules>
   </component>
 </project>

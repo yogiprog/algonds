@@ -15,9 +15,7 @@ public class SumofNumber {
 
   public static void main(String[] args) {
 
-    String str = "A";
-
-    System.out.println(str.length());
+    System.out.println(SumofNumber.sum(4));
   }
 
 }
