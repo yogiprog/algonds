@@ -6,7 +6,6 @@ import java.util.Map;
 
 public class DirectedGraphAdjacencyList {
 
-
   Map<Node, LinkedList<Node>> graph;
 
   DirectedGraphAdjacencyList() {
@@ -14,7 +13,6 @@ public class DirectedGraphAdjacencyList {
   }
 
   public void addVertex(Node s, Node d) {
-
     if (graph.containsKey(s)) {
       graph.get(s).add(d);
     } else {
@@ -27,16 +25,13 @@ public class DirectedGraphAdjacencyList {
   public void printGraph() {
 
     for (Node n : graph.keySet()) {
-      System.out.print(n.data+":");
+      System.out.print(n.data + ":");
       for (Node in : graph.get(n)) {
         System.out.print(in.data);
       }
       System.out.println();
     }
-
-
   }
-
 
   public static void main(String[] args) {
 
@@ -45,42 +40,14 @@ public class DirectedGraphAdjacencyList {
     dg.addVertex(new Node(1), new Node(2));
     dg.addVertex(new Node(1), new Node(4));
     dg.addVertex(new Node(1), new Node(5));
-
     dg.addVertex(new Node(2), new Node(1));
     dg.addVertex(new Node(2), new Node(3));
-
     dg.addVertex(new Node(2), new Node(1));
     dg.addVertex(new Node(2), new Node(3));
-
     dg.addVertex(new Node(2), new Node(1));
     dg.addVertex(new Node(2), new Node(3));
     dg.addVertex(new Node(2), new Node(3));
-
-
-
     dg.printGraph();
-
   }
 
-
-}
-
-
-class Node {
-
-  int data;
-
-  Node(int data) {
-    this.data = data;
-  }
-
-  @Override
-  public boolean equals(Object obj) {
-
-    Node n = (Node)obj;
-    if(this.data== n.data)
-      return true;
-    else
-      return false;
-  }
 }

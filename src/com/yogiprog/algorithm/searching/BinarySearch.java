@@ -1,4 +1,4 @@
-package com.yogiprog.datastructure.searching;
+package com.yogiprog.algorithm.searching;
 
 public class BinarySearch {
 

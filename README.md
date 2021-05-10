@@ -1,2 +1,12 @@
 # algonds
-Repository for learning basics datastructure and algorithms
+ Repository for Algorithms and Data structures
+ 
+## Algorithms
+#### Divide and conquer
+#### Recursion
+## Data structure
+#### Queue
+#### Stack
+#### Tree
+#### Queue
+

@@ -1,65 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbec0909-5cfd-4bfa-a438-db24689c7e6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/algorithm/dp/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/algorithm/dp/LongestCommentSubsquenceIntwoArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/algorithm/dp/LongestIncreasingSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/amz/MergeKSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/amz/ReorderLogs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/amz/ValidParenthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/String/Atoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/DirectedGraphAdjacencyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/DirectedGraphAjacencyMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/UndirectedGraphAdjacencyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/UndirectedGraphAjacencyMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/searching/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/BTNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/SortedArrayToBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/misc/IntegertoRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/misc/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/misc/RomanToInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/slidingwindow/ArraySubSequenceAvg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/slidingwindow/LongestSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/slidingwindow/MaxSumSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/slidingwindow/SmallestSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/twopointer/RemoveDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="03ea4dba-1dfe-4aab-b73b-6b97ff7fb348" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algonds.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algonds.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/algorithm/DAC/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/algorithm/DAC/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/algorithm/recursion/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/algorithm/recursion/Palindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/algorithm/recursion/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/algorithm/recursion/ReverseString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/algorithm/recursion/SumofNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/algorithm/recursion/SumofNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/DepthOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/DepthOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/InorderRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/InorderRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/InorderWithoutrecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/InorderWithoutrecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/Ordertraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/Ordertraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/PostOrderRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/PostOrderRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/PostorderWithoutRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/PostorderWithoutRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/PreorderRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/PreorderRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/PreorderWithoutRecurssion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/PreorderWithoutRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/SymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/ValidateBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/ValidateBinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/DirectedGraphAdjacencyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/DirectedGraphAdjacencyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/UndirectedGraphAdjacencyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/UndirectedGraphAdjacencyList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -67,38 +78,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="downloadDocsAutomatically" value="true" />
-        <option name="downloadSourcesAutomatically" value="true" />
-        <option name="jdkForImporter" value="#JAVA_HOME" />
-        <option name="vmOptionsForImporter" value="-Xmx768m" />
-      </MavenImportingSettings>
-    </option>
+  <component name="ProjectId" id="1rEwDFA6VZwYUQ6VvRDCMcmiKfc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectId" id="1j0zurpRYJJCVXP68xHqDyfdrLR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../core-java" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.yogiprog.algorithm.recursion" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.Palindrome">
-    <configuration name="MaxSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yogiprog.slidingwindow.MaxSumSubArray" />
+  <component name="RunManager" selected="Application.DirectedGraphAdjacencyList">
+    <configuration name="DirectedGraphAdjacencyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yogiprog.datastructure.graph.DirectedGraphAdjacencyList" />
       <module name="algonds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yogiprog.slidingwindow.*" />
+          <option name="PATTERN" value="com.yogiprog.datastructure.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yogiprog.algorithm.recursion.Palindrome" />
+    <configuration name="UndirectedGraphAdjacencyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yogiprog.datastructure.graph.UndirectedGraphAdjacencyList" />
       <module name="algonds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yogiprog.algorithm.recursion.*" />
+          <option name="PATTERN" value="com.yogiprog.datastructure.graph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,38 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yogiprog.algorithm.recursion.ReverseString" />
+    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yogiprog.amz.ValidParenthesis" />
       <module name="algonds" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.yogiprog.algorithm.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmallestSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yogiprog.slidingwindow.SmallestSubArray" />
-      <module name="algonds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yogiprog.slidingwindow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumofNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yogiprog.algorithm.recursion.SumofNumber" />
-      <module name="algonds" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yogiprog.algorithm.recursion.*" />
+          <option name="PATTERN" value="com.yogiprog.amz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,108 +133,89 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Palindrome" />
-        <item itemvalue="Application.SumofNumber" />
-        <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.SmallestSubArray" />
-        <item itemvalue="Application.MaxSumSubArray" />
+        <item itemvalue="Application.DirectedGraphAdjacencyList" />
+        <item itemvalue="Application.UndirectedGraphAdjacencyList" />
+        <item itemvalue="Application.ValidParenthesis" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bbec0909-5cfd-4bfa-a438-db24689c7e6c" name="Default Changelist" comment="" />
-      <created>1598587661604</created>
+      <changelist id="03ea4dba-1dfe-4aab-b73b-6b97ff7fb348" name="Default Changelist" comment="" />
+      <created>1618554436032</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1598587661604</updated>
+      <updated>1618554436032</updated>
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="164" key="GridCell.Tab.0.bottom" timestamp="1618195861386">
-      <screen x="2" y="-1080" width="1920" height="1040" />
+    <state x="581" y="-984" key="FileChooserDialogImpl" timestamp="1620510665820">
+      <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.bottom/0.0.1280.680/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1618195861386" />
-    <state width="1877" height="164" key="GridCell.Tab.0.center" timestamp="1618195861386">
-      <screen x="2" y="-1080" width="1920" height="1040" />
+    <state x="581" y="-984" key="FileChooserDialogImpl/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1620510665820" />
+    <state width="1845" height="243" key="GridCell.Tab.0.bottom" timestamp="1618555380308">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.center/0.0.1280.680/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1618195861386" />
-    <state width="1877" height="164" key="GridCell.Tab.0.left" timestamp="1618195861386">
-      <screen x="2" y="-1080" width="1920" height="1040" />
+    <state width="1845" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040/-914.1080.1280.680@0.0.1920.1040" timestamp="1618555380308" />
+    <state width="1845" height="243" key="GridCell.Tab.0.center" timestamp="1618555380307">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.left/0.0.1280.680/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1618195861386" />
-    <state width="1877" height="164" key="GridCell.Tab.0.right" timestamp="1618195861386">
-      <screen x="2" y="-1080" width="1920" height="1040" />
+    <state width="1845" height="243" key="GridCell.Tab.0.center/0.0.1920.1040/-914.1080.1280.680@0.0.1920.1040" timestamp="1618555380307" />
+    <state width="1845" height="243" key="GridCell.Tab.0.left" timestamp="1618555380307">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.right/0.0.1280.680/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1618195861386" />
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1618192680747">
-      <screen x="2" y="-1080" width="1920" height="1040" />
+    <state width="1845" height="243" key="GridCell.Tab.0.left/0.0.1920.1040/-914.1080.1280.680@0.0.1920.1040" timestamp="1618555380307" />
+    <state width="1845" height="243" key="GridCell.Tab.0.right" timestamp="1618555380307">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.bottom/0.0.1280.680/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1618192680747" />
-    <state width="1877" height="346" key="GridCell.Tab.1.center" timestamp="1618192680747">
-      <screen x="2" y="-1080" width="1920" height="1040" />
+    <state width="1845" height="243" key="GridCell.Tab.0.right/0.0.1920.1040/-914.1080.1280.680@0.0.1920.1040" timestamp="1618555380307" />
+    <state width="1853" height="312" key="GridCell.Tab.1.bottom" timestamp="1618554796212">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.center/0.0.1280.680/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1618192680747" />
-    <state width="1877" height="346" key="GridCell.Tab.1.left" timestamp="1618192680747">
-      <screen x="2" y="-1080" width="1920" height="1040" />
+    <state width="1853" height="312" key="GridCell.Tab.1.bottom/0.0.1920.1040/-914.1080.1280.680@0.0.1920.1040" timestamp="1618554796212" />
+    <state width="1853" height="312" key="GridCell.Tab.1.center" timestamp="1618554796212">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.left/0.0.1280.680/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1618192680747" />
-    <state width="1877" height="346" key="GridCell.Tab.1.right" timestamp="1618192680747">
-      <screen x="2" y="-1080" width="1920" height="1040" />
+    <state width="1853" height="312" key="GridCell.Tab.1.center/0.0.1920.1040/-914.1080.1280.680@0.0.1920.1040" timestamp="1618554796212" />
+    <state width="1853" height="312" key="GridCell.Tab.1.left" timestamp="1618554796212">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="346" key="GridCell.Tab.1.right/0.0.1280.680/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1618192680747" />
-    <state x="618" y="-299" key="run.anything.popup" timestamp="1618192340456">
-      <screen x="2" y="-1080" width="1920" height="1040" />
+    <state width="1853" height="312" key="GridCell.Tab.1.left/0.0.1920.1040/-914.1080.1280.680@0.0.1920.1040" timestamp="1618554796212" />
+    <state width="1853" height="312" key="GridCell.Tab.1.right" timestamp="1618554796212">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="618" y="-299" key="run.anything.popup/0.0.1280.680/2.-1080.1920.1040@2.-1080.1920.1040" timestamp="1618192340456" />
+    <state width="1853" height="312" key="GridCell.Tab.1.right/0.0.1920.1040/-914.1080.1280.680@0.0.1920.1040" timestamp="1618554796212" />
+    <state x="245" y="0" width="1366" height="1040" key="SettingsEditor" timestamp="1618554978688">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="245" y="0" width="1366" height="1040" key="SettingsEditor/0.0.1920.1040/-914.1080.1280.680@0.0.1920.1040" timestamp="1618554978688" />
+    <state x="0" y="-1080" key="new project wizard" timestamp="1620510643037">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="0" y="-1080" key="new project wizard/0.0.1280.680/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1620510643037" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/yogiprog/datastructure/linkedlist/SLinkedList.java</url>
-          <line>59</line>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/UndirectedGraphAdjacencyList.java</url>
+          <line>14</line>
+          <properties class="com.yogiprog.datastructure.graph.UndirectedGraphAdjacencyList" method="display">
+            <option name="EMULATED" value="true" />
+          </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/yogiprog/datastructure/linkedlist/SLinkedList.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/UndirectedGraphAdjacencyList.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/yogiprog/datastructure/tree/BinaryTree.java</url>
-          <line>70</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/yogiprog/algorithm/recursion/FibonacciSeries.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/DirectedGraphAdjacencyList.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/yogiprog/algorithm/dp/LongestCommentSubsquenceIntwoArray.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/yogiprog/misc/RomanToInteger.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/yogiprog/algorithm/recursion/ReverseString.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/src/com/yogiprog/datastructure/graph/UndirectedGraphAdjacencyList.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
